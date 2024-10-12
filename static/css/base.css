@@ -34,3 +34,12 @@ body {
 .post p {
     margin-bottom: 0;
 }
+
+input[type="submit"] {
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 32px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
