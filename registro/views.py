@@ -12,3 +12,4 @@ class SignUpView(CreateView):
 
 class LogOutView(TemplateView):
     template_name = "registration/logout.html"
+
