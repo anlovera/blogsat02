@@ -12,4 +12,8 @@ class SignUpView(CreateView):
 
 class LogOutView(TemplateView):
     template_name = "registration/logout.html"
+    
+def FirstPage(request):
+    
+    return render(request, "first_page.html")
 
